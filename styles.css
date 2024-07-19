@@ -20,10 +20,11 @@ div > *{
 button{
     margin-top: 1.5vh;
     width:100%;
-    background-color: #7469B6 !important;
 }
 }
-
+button{
+    background-color: #6f42c1 !important;
+}
 .hidden{
     display: none;
 }
