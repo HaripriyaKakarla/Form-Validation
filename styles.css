@@ -20,13 +20,25 @@ div > *{
 button{
     margin-top: 1.5vh;
     width:100%;
+    background-color: #7469B6 !important;
 }
 }
 
 .hidden{
     display: none;
-} 
+}
+
+.form-control:focus {
+    border-color: #6f42c1; /* Purple border color */
+    box-shadow: 0 0 5px rgba(111, 66, 193, 0.5); /* Purple box shadow */
+}
 
 
+label{
+    font-weight: bold;
+}
 
-
+body{
+    background-color: #FFE6E6;
+    color:#AD88C6;
+}
